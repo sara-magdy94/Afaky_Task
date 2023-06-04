@@ -1,0 +1,76 @@
+• Enter a valid product name and click on the search iconto Verify that search field accepts alphabets, numbers or symbols.
+Expected results: Search should be performed according to search text provided by user.
+
+• Enter nothing and  click on the search button;
+•  Expected results: it should show the same page without refreshing.
+
+• Typing any single character in the search box
+•  Expected results: it should show a list contains ten results of product suggestions starting with the entered character.
+
+• Type any single character and try to select an item
+•  Expected results: the user should be able to choose a product from the dropdown product list.
+
+• Type any two-character, and check if shown list is changed according to the new written characters.
+•  Expected results:  the user should be able to see an updated list with the product starting from given two-character
+
+• If user write a combination of valid character and number
+•  Expected results:  it should load the result page with a product name containing the product name character and number. (Ex: AF700)
+
+• If user write a combination of character & number is invalid (Ex: jjh88)
+•  Expected results: it should load an error message or suggestion(as per req.) of the product name.
+
+Verify that user should be able to search based on product name,brand name or product specification.
+Expected results: User should be able to perform search bases on product name, brand name or product specification.
+
+• Select a department, and type an available product;
+• Expected results: it should show the first product name in a dropdown list from the selected title from that department.
+
+• Copy text in the search box
+•  Expected results: should be able to copy text.
+
+• Paste text in the search box
+•  Expected results: should be able to paste the text.
+
+Verify that filter should be present for filtering the search results bases on Brand, Price, Reviews or Ratings.
+Expected results: Search should be performed according to search text provided by user and filters should be present.
+
+• If many users logged in from different devices and searched for a product name,
+•  Expected results: the result page should be the same for users to search for the same product.
+
+• If Search a product with a different user account
+•  Expected results: User should be able to see the same search result page.
+
+• Select a country, and search for a valid product name
+•  Expected results: result page should display a product containing a given name in the English language.
+
+• Hovering over the search button
+•  Expected results: cursor/arrow should convert to a hand shape.
+
+• Hovering over the department section
+•  Expected results: should show the tooltip as “Search in.”
+
+• The scroll button in the department section 
+ Expected results:should scroll as per the selection of the department.
+
+• Enter text, change, and select department 
+ Expected results: should show the cursor next to the last character.
+
+• Submit text by clicking the search button
+•  Expected results: should be able to submit text
+
+• Submit text from a keyboard
+•  Expected results: should be able to submit text
+
+• Type text, refresh the page
+•  Expected results: text should remain and the department should be All.
+
+• Logged in from a user and Check whether related previously written keywords are added to the search result list while typing or not.
+•  Expected results: previously written keywords should be shown if user was logged in.
+
+
+
+
+
+
+
+
