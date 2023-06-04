@@ -1,0 +1,12 @@
+I used POM (page object model) pattern, 
+Test reporting feature (extent reports and TestNG ),
+java faker for different user data (randomly generated).
+The test is doing the following steps:
+o Open the website.
+o Signup and send all registration test data
+o After complete signup, assert on success msg shown and print out it
+o Sign out from the website
+o log out 
+o Sign In
+o Logout Again 
+o assert on current url and page title 
